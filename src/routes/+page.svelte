@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Logo from "../components/logo.svelte";
+    import Hero from "../components/hero.svelte"
+</script>
+
+
+<div class="page_container">
+    <Logo></Logo>
+    <Hero></Hero> 
+</div>
+
+
+
+<style>
+    .page_container {
+        font-family: 'Baumans', cursive;;
+    }
+    .page_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+</style>
