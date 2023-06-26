@@ -1,5 +1,7 @@
 
-
+<script>
+    import 'animate.css';
+</script>
 
 
 <div class="image_hero">
@@ -14,8 +16,7 @@
     </div>
 </div>
 <div id="text_container">
-    <h1 class="large_text">Portfolio</h1>
-    <h3 style="margin-top: 0px" class="small_text">Ludwig Lechtreck</h3>
+    <h1 style="color: #74a466" class="large_text animate__animated animate__fadeInLeft">Ludwig Lechtreck</h1>
 </div> 
 
 
@@ -75,4 +76,5 @@
     .small_text {
         font-size: 2em;
     }
+    
 </style>
